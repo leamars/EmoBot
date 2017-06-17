@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30AD8AD51EF58E1300CB153D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD8AD41EF58E1300CB153D /* AppDelegate.swift */; };
+		30AD8AD71EF58E1300CB153D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD8AD61EF58E1300CB153D /* ViewController.swift */; };
+		30AD8ADA1EF58E1300CB153D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AD8AD81EF58E1300CB153D /* Main.storyboard */; };
+		30AD8ADC1EF58E1300CB153D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AD8ADB1EF58E1300CB153D /* Assets.xcassets */; };
+		30AD8ADF1EF58E1300CB153D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AD8ADD1EF58E1300CB153D /* LaunchScreen.storyboard */; };
+		30AD8AEA1EF58E1300CB153D /* EmoBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD8AE91EF58E1300CB153D /* EmoBotTests.swift */; };
+		30AD8AF51EF58E1300CB153D /* EmoBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD8AF41EF58E1300CB153D /* EmoBotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30AD8AE61EF58E1300CB153D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30AD8AC91EF58E1300CB153D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30AD8AD01EF58E1300CB153D;
+			remoteInfo = EmoBot;
+		};
+		30AD8AF11EF58E1300CB153D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30AD8AC91EF58E1300CB153D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30AD8AD01EF58E1300CB153D;
+			remoteInfo = EmoBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30AD8AD11EF58E1300CB153D /* EmoBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmoBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30AD8AD41EF58E1300CB153D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30AD8AD61EF58E1300CB153D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30AD8AD91EF58E1300CB153D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30AD8ADB1EF58E1300CB153D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30AD8ADE1EF58E1300CB153D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30AD8AE01EF58E1300CB153D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30AD8AE51EF58E1300CB153D /* EmoBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmoBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30AD8AE91EF58E1300CB153D /* EmoBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoBotTests.swift; sourceTree = "<group>"; };
+		30AD8AEB1EF58E1300CB153D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30AD8AF01EF58E1300CB153D /* EmoBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmoBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30AD8AF41EF58E1300CB153D /* EmoBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoBotUITests.swift; sourceTree = "<group>"; };
+		30AD8AF61EF58E1300CB153D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30AD8ACE1EF58E1300CB153D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD8AE21EF58E1300CB153D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD8AED1EF58E1300CB153D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30AD8AC81EF58E1300CB153D = {
+			isa = PBXGroup;
+			children = (
+				30AD8AD31EF58E1300CB153D /* EmoBot */,
+				30AD8AE81EF58E1300CB153D /* EmoBotTests */,
+				30AD8AF31EF58E1300CB153D /* EmoBotUITests */,
+				30AD8AD21EF58E1300CB153D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30AD8AD21EF58E1300CB153D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30AD8AD11EF58E1300CB153D /* EmoBot.app */,
+				30AD8AE51EF58E1300CB153D /* EmoBotTests.xctest */,
+				30AD8AF01EF58E1300CB153D /* EmoBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30AD8AD31EF58E1300CB153D /* EmoBot */ = {
+			isa = PBXGroup;
+			children = (
+				30AD8AD41EF58E1300CB153D /* AppDelegate.swift */,
+				30AD8AD61EF58E1300CB153D /* ViewController.swift */,
+				30AD8AD81EF58E1300CB153D /* Main.storyboard */,
+				30AD8ADB1EF58E1300CB153D /* Assets.xcassets */,
+				30AD8ADD1EF58E1300CB153D /* LaunchScreen.storyboard */,
+				30AD8AE01EF58E1300CB153D /* Info.plist */,
+			);
+			path = EmoBot;
+			sourceTree = "<group>";
+		};
+		30AD8AE81EF58E1300CB153D /* EmoBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				30AD8AE91EF58E1300CB153D /* EmoBotTests.swift */,
+				30AD8AEB1EF58E1300CB153D /* Info.plist */,
+			);
+			path = EmoBotTests;
+			sourceTree = "<group>";
+		};
+		30AD8AF31EF58E1300CB153D /* EmoBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30AD8AF41EF58E1300CB153D /* EmoBotUITests.swift */,
+				30AD8AF61EF58E1300CB153D /* Info.plist */,
+			);
+			path = EmoBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30AD8AD01EF58E1300CB153D /* EmoBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30AD8AF91EF58E1300CB153D /* Build configuration list for PBXNativeTarget "EmoBot" */;
+			buildPhases = (
+				30AD8ACD1EF58E1300CB153D /* Sources */,
+				30AD8ACE1EF58E1300CB153D /* Frameworks */,
+				30AD8ACF1EF58E1300CB153D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmoBot;
+			productName = EmoBot;
+			productReference = 30AD8AD11EF58E1300CB153D /* EmoBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30AD8AE41EF58E1300CB153D /* EmoBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30AD8AFC1EF58E1300CB153D /* Build configuration list for PBXNativeTarget "EmoBotTests" */;
+			buildPhases = (
+				30AD8AE11EF58E1300CB153D /* Sources */,
+				30AD8AE21EF58E1300CB153D /* Frameworks */,
+				30AD8AE31EF58E1300CB153D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30AD8AE71EF58E1300CB153D /* PBXTargetDependency */,
+			);
+			name = EmoBotTests;
+			productName = EmoBotTests;
+			productReference = 30AD8AE51EF58E1300CB153D /* EmoBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30AD8AEF1EF58E1300CB153D /* EmoBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30AD8AFF1EF58E1300CB153D /* Build configuration list for PBXNativeTarget "EmoBotUITests" */;
+			buildPhases = (
+				30AD8AEC1EF58E1300CB153D /* Sources */,
+				30AD8AED1EF58E1300CB153D /* Frameworks */,
+				30AD8AEE1EF58E1300CB153D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30AD8AF21EF58E1300CB153D /* PBXTargetDependency */,
+			);
+			name = EmoBotUITests;
+			productName = EmoBotUITests;
+			productReference = 30AD8AF01EF58E1300CB153D /* EmoBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30AD8AC91EF58E1300CB153D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = elemes;
+				TargetAttributes = {
+					30AD8AD01EF58E1300CB153D = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					30AD8AE41EF58E1300CB153D = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 30AD8AD01EF58E1300CB153D;
+					};
+					30AD8AEF1EF58E1300CB153D = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 30AD8AD01EF58E1300CB153D;
+					};
+				};
+			};
+			buildConfigurationList = 30AD8ACC1EF58E1300CB153D /* Build configuration list for PBXProject "EmoBot" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30AD8AC81EF58E1300CB153D;
+			productRefGroup = 30AD8AD21EF58E1300CB153D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30AD8AD01EF58E1300CB153D /* EmoBot */,
+				30AD8AE41EF58E1300CB153D /* EmoBotTests */,
+				30AD8AEF1EF58E1300CB153D /* EmoBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30AD8ACF1EF58E1300CB153D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AD8ADF1EF58E1300CB153D /* LaunchScreen.storyboard in Resources */,
+				30AD8ADC1EF58E1300CB153D /* Assets.xcassets in Resources */,
+				30AD8ADA1EF58E1300CB153D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD8AE31EF58E1300CB153D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD8AEE1EF58E1300CB153D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30AD8ACD1EF58E1300CB153D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AD8AD71EF58E1300CB153D /* ViewController.swift in Sources */,
+				30AD8AD51EF58E1300CB153D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD8AE11EF58E1300CB153D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AD8AEA1EF58E1300CB153D /* EmoBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30AD8AEC1EF58E1300CB153D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AD8AF51EF58E1300CB153D /* EmoBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30AD8AE71EF58E1300CB153D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30AD8AD01EF58E1300CB153D /* EmoBot */;
+			targetProxy = 30AD8AE61EF58E1300CB153D /* PBXContainerItemProxy */;
+		};
+		30AD8AF21EF58E1300CB153D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30AD8AD01EF58E1300CB153D /* EmoBot */;
+			targetProxy = 30AD8AF11EF58E1300CB153D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30AD8AD81EF58E1300CB153D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30AD8AD91EF58E1300CB153D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30AD8ADD1EF58E1300CB153D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30AD8ADE1EF58E1300CB153D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30AD8AF71EF58E1300CB153D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30AD8AF81EF58E1300CB153D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30AD8AFA1EF58E1300CB153D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmoBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.EmoBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30AD8AFB1EF58E1300CB153D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmoBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.EmoBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30AD8AFD1EF58E1300CB153D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmoBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.EmoBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmoBot.app/EmoBot";
+			};
+			name = Debug;
+		};
+		30AD8AFE1EF58E1300CB153D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmoBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.EmoBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmoBot.app/EmoBot";
+			};
+			name = Release;
+		};
+		30AD8B001EF58E1300CB153D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EmoBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.EmoBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmoBot;
+			};
+			name = Debug;
+		};
+		30AD8B011EF58E1300CB153D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EmoBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.EmoBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmoBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30AD8ACC1EF58E1300CB153D /* Build configuration list for PBXProject "EmoBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30AD8AF71EF58E1300CB153D /* Debug */,
+				30AD8AF81EF58E1300CB153D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30AD8AF91EF58E1300CB153D /* Build configuration list for PBXNativeTarget "EmoBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30AD8AFA1EF58E1300CB153D /* Debug */,
+				30AD8AFB1EF58E1300CB153D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30AD8AFC1EF58E1300CB153D /* Build configuration list for PBXNativeTarget "EmoBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30AD8AFD1EF58E1300CB153D /* Debug */,
+				30AD8AFE1EF58E1300CB153D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30AD8AFF1EF58E1300CB153D /* Build configuration list for PBXNativeTarget "EmoBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30AD8B001EF58E1300CB153D /* Debug */,
+				30AD8B011EF58E1300CB153D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30AD8AC91EF58E1300CB153D /* Project object */;
+}
