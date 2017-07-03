@@ -1,0 +1,6 @@
+framework module Pods_EmoBotUITests {
+  umbrella header "Pods-EmoBotUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Affdex {
+  umbrella header "Affdex.h"
+
+  export *
+  module * { export * }
+}

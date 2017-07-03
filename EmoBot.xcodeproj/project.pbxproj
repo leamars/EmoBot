@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B610FE4CCF8DAC54A5C9718 /* Pods_EmoBotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B79952FE391C56D8BCC85F /* Pods_EmoBotTests.framework */; };
 		30AD8AD51EF58E1300CB153D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD8AD41EF58E1300CB153D /* AppDelegate.swift */; };
 		30AD8AD71EF58E1300CB153D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD8AD61EF58E1300CB153D /* ViewController.swift */; };
-		30AD8ADA1EF58E1300CB153D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AD8AD81EF58E1300CB153D /* Main.storyboard */; };
 		30AD8ADC1EF58E1300CB153D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AD8ADB1EF58E1300CB153D /* Assets.xcassets */; };
 		30AD8ADF1EF58E1300CB153D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30AD8ADD1EF58E1300CB153D /* LaunchScreen.storyboard */; };
 		30AD8AEA1EF58E1300CB153D /* EmoBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD8AE91EF58E1300CB153D /* EmoBotTests.swift */; };
 		30AD8AF51EF58E1300CB153D /* EmoBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD8AF41EF58E1300CB153D /* EmoBotUITests.swift */; };
+		30AD8B041EF58E3100CB153D /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD8B031EF58E3100CB153D /* BluetoothService.swift */; };
+		30AD8B061EF58E3900CB153D /* BluetoothDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD8B051EF58E3900CB153D /* BluetoothDiscovery.swift */; };
+		30AD8B081EF5E66100CB153D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD8B071EF5E66100CB153D /* String.swift */; };
+		30FEACBE1EFF042A00986724 /* BotFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FEACBD1EFF042A00986724 /* BotFace.swift */; };
+		30FEACC21EFF0E7400986724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FEACC11EFF0E7400986724 /* Main.storyboard */; };
+		30FEACCE1EFF326300986724 /* smb_gameover.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30FEACC41EFF326200986724 /* smb_gameover.wav */; };
+		30FEACCF1EFF326300986724 /* smb_1-up.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30FEACC51EFF326200986724 /* smb_1-up.wav */; };
+		30FEACD01EFF326300986724 /* smb_warning.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30FEACC61EFF326300986724 /* smb_warning.wav */; };
+		30FEACD11EFF326300986724 /* smb_breakblock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30FEACC71EFF326300986724 /* smb_breakblock.wav */; };
+		30FEACD21EFF326300986724 /* smb_bowserfalls.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30FEACC81EFF326300986724 /* smb_bowserfalls.wav */; };
+		30FEACD31EFF326300986724 /* smb_world_clear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30FEACC91EFF326300986724 /* smb_world_clear.wav */; };
+		30FEACD41EFF326300986724 /* smb_bowserfire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30FEACCA1EFF326300986724 /* smb_bowserfire.wav */; };
+		30FEACD51EFF326300986724 /* smb_stage_clear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30FEACCB1EFF326300986724 /* smb_stage_clear.wav */; };
+		30FEACD61EFF326300986724 /* smb_coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30FEACCC1EFF326300986724 /* smb_coin.wav */; };
+		30FEACD71EFF326300986724 /* smb_mariodie.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30FEACCD1EFF326300986724 /* smb_mariodie.wav */; };
+		30FEACD91EFF365A00986724 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FEACD81EFF365A00986724 /* Int.swift */; };
+		5362BE565552C3B534FBD82F /* Pods_EmoBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E27395EC771DBA107BA8FA0 /* Pods_EmoBot.framework */; };
+		B01F4B43E6A7AD037C8B2491 /* Pods_EmoBotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8FD6B30C005023FFFDCDE5 /* Pods_EmoBotUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E27395EC771DBA107BA8FA0 /* Pods_EmoBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmoBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30AD8AD11EF58E1300CB153D /* EmoBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmoBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30AD8AD41EF58E1300CB153D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30AD8AD61EF58E1300CB153D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30AD8AD91EF58E1300CB153D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30AD8ADB1EF58E1300CB153D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30AD8ADE1EF58E1300CB153D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30AD8AE01EF58E1300CB153D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +65,30 @@
 		30AD8AF01EF58E1300CB153D /* EmoBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmoBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30AD8AF41EF58E1300CB153D /* EmoBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoBotUITests.swift; sourceTree = "<group>"; };
 		30AD8AF61EF58E1300CB153D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30AD8B031EF58E3100CB153D /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
+		30AD8B051EF58E3900CB153D /* BluetoothDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothDiscovery.swift; sourceTree = "<group>"; };
+		30AD8B071EF5E66100CB153D /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		30FEACBD1EFF042A00986724 /* BotFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotFace.swift; sourceTree = "<group>"; };
+		30FEACC11EFF0E7400986724 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		30FEACC41EFF326200986724 /* smb_gameover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_gameover.wav; path = ../../../../Sounds/smb_gameover.wav; sourceTree = "<group>"; };
+		30FEACC51EFF326200986724 /* smb_1-up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "smb_1-up.wav"; path = "../../../../Sounds/smb_1-up.wav"; sourceTree = "<group>"; };
+		30FEACC61EFF326300986724 /* smb_warning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_warning.wav; path = ../../../../Sounds/smb_warning.wav; sourceTree = "<group>"; };
+		30FEACC71EFF326300986724 /* smb_breakblock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_breakblock.wav; path = ../../../../Sounds/smb_breakblock.wav; sourceTree = "<group>"; };
+		30FEACC81EFF326300986724 /* smb_bowserfalls.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_bowserfalls.wav; path = ../../../../Sounds/smb_bowserfalls.wav; sourceTree = "<group>"; };
+		30FEACC91EFF326300986724 /* smb_world_clear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_world_clear.wav; path = ../../../../Sounds/smb_world_clear.wav; sourceTree = "<group>"; };
+		30FEACCA1EFF326300986724 /* smb_bowserfire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_bowserfire.wav; path = ../../../../Sounds/smb_bowserfire.wav; sourceTree = "<group>"; };
+		30FEACCB1EFF326300986724 /* smb_stage_clear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_stage_clear.wav; path = ../../../../Sounds/smb_stage_clear.wav; sourceTree = "<group>"; };
+		30FEACCC1EFF326300986724 /* smb_coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_coin.wav; path = ../../../../Sounds/smb_coin.wav; sourceTree = "<group>"; };
+		30FEACCD1EFF326300986724 /* smb_mariodie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_mariodie.wav; path = ../../../../Sounds/smb_mariodie.wav; sourceTree = "<group>"; };
+		30FEACD81EFF365A00986724 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		710BF1CE3E0411D1B0AB070C /* Pods-EmoBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmoBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmoBot/Pods-EmoBot.release.xcconfig"; sourceTree = "<group>"; };
+		781B18439521075161A8E9E1 /* Pods-EmoBotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmoBotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmoBotTests/Pods-EmoBotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B8FD6B30C005023FFFDCDE5 /* Pods_EmoBotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmoBotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B79952FE391C56D8BCC85F /* Pods_EmoBotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmoBotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE6F6B72A84EE63FD9F51CA /* Pods-EmoBotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmoBotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmoBotUITests/Pods-EmoBotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFAF6A7905178A1FD73ADE94 /* Pods-EmoBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmoBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmoBot/Pods-EmoBot.debug.xcconfig"; sourceTree = "<group>"; };
+		F9834A51A3E1139353A175FA /* Pods-EmoBotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmoBotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmoBotTests/Pods-EmoBotTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAC0317F406AE99052DFF447 /* Pods-EmoBotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmoBotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmoBotUITests/Pods-EmoBotUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5362BE565552C3B534FBD82F /* Pods_EmoBot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B610FE4CCF8DAC54A5C9718 /* Pods_EmoBotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01F4B43E6A7AD037C8B2491 /* Pods_EmoBotUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +126,8 @@
 				30AD8AE81EF58E1300CB153D /* EmoBotTests */,
 				30AD8AF31EF58E1300CB153D /* EmoBotUITests */,
 				30AD8AD21EF58E1300CB153D /* Products */,
+				82EBF1C7773F3047FE72A1DB /* Pods */,
+				D00D364620C81614F022C3D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +144,11 @@
 		30AD8AD31EF58E1300CB153D /* EmoBot */ = {
 			isa = PBXGroup;
 			children = (
+				30AD8B021EF58E2000CB153D /* Classes */,
 				30AD8AD41EF58E1300CB153D /* AppDelegate.swift */,
 				30AD8AD61EF58E1300CB153D /* ViewController.swift */,
-				30AD8AD81EF58E1300CB153D /* Main.storyboard */,
 				30AD8ADB1EF58E1300CB153D /* Assets.xcassets */,
+				30FEACC11EFF0E7400986724 /* Main.storyboard */,
 				30AD8ADD1EF58E1300CB153D /* LaunchScreen.storyboard */,
 				30AD8AE01EF58E1300CB153D /* Info.plist */,
 			);
@@ -125,6 +173,59 @@
 			path = EmoBotUITests;
 			sourceTree = "<group>";
 		};
+		30AD8B021EF58E2000CB153D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30FEACC31EFF325300986724 /* Sounds */,
+				30AD8B031EF58E3100CB153D /* BluetoothService.swift */,
+				30AD8B051EF58E3900CB153D /* BluetoothDiscovery.swift */,
+				30AD8B071EF5E66100CB153D /* String.swift */,
+				30FEACBD1EFF042A00986724 /* BotFace.swift */,
+				30FEACD81EFF365A00986724 /* Int.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		30FEACC31EFF325300986724 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				30FEACC51EFF326200986724 /* smb_1-up.wav */,
+				30FEACC81EFF326300986724 /* smb_bowserfalls.wav */,
+				30FEACCA1EFF326300986724 /* smb_bowserfire.wav */,
+				30FEACC71EFF326300986724 /* smb_breakblock.wav */,
+				30FEACCC1EFF326300986724 /* smb_coin.wav */,
+				30FEACC41EFF326200986724 /* smb_gameover.wav */,
+				30FEACCD1EFF326300986724 /* smb_mariodie.wav */,
+				30FEACCB1EFF326300986724 /* smb_stage_clear.wav */,
+				30FEACC61EFF326300986724 /* smb_warning.wav */,
+				30FEACC91EFF326300986724 /* smb_world_clear.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		82EBF1C7773F3047FE72A1DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFAF6A7905178A1FD73ADE94 /* Pods-EmoBot.debug.xcconfig */,
+				710BF1CE3E0411D1B0AB070C /* Pods-EmoBot.release.xcconfig */,
+				781B18439521075161A8E9E1 /* Pods-EmoBotTests.debug.xcconfig */,
+				F9834A51A3E1139353A175FA /* Pods-EmoBotTests.release.xcconfig */,
+				FAC0317F406AE99052DFF447 /* Pods-EmoBotUITests.debug.xcconfig */,
+				BDE6F6B72A84EE63FD9F51CA /* Pods-EmoBotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D00D364620C81614F022C3D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E27395EC771DBA107BA8FA0 /* Pods_EmoBot.framework */,
+				B4B79952FE391C56D8BCC85F /* Pods_EmoBotTests.framework */,
+				9B8FD6B30C005023FFFDCDE5 /* Pods_EmoBotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30AD8AF91EF58E1300CB153D /* Build configuration list for PBXNativeTarget "EmoBot" */;
 			buildPhases = (
+				863DED4BE943125859BBC531 /* [CP] Check Pods Manifest.lock */,
 				30AD8ACD1EF58E1300CB153D /* Sources */,
 				30AD8ACE1EF58E1300CB153D /* Frameworks */,
 				30AD8ACF1EF58E1300CB153D /* Resources */,
+				07E4C15D04641591D0C78FD5 /* [CP] Embed Pods Frameworks */,
+				0843F7A9F5EFF5CDA8AA1DA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30AD8AFC1EF58E1300CB153D /* Build configuration list for PBXNativeTarget "EmoBotTests" */;
 			buildPhases = (
+				E28323B44B6F9224399D75AF /* [CP] Check Pods Manifest.lock */,
 				30AD8AE11EF58E1300CB153D /* Sources */,
 				30AD8AE21EF58E1300CB153D /* Frameworks */,
 				30AD8AE31EF58E1300CB153D /* Resources */,
+				073B601E0E0813EB06606CAF /* [CP] Embed Pods Frameworks */,
+				E9FAF4E5362309A294BD5C76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30AD8AFF1EF58E1300CB153D /* Build configuration list for PBXNativeTarget "EmoBotUITests" */;
 			buildPhases = (
+				2F3D334B04CDB733898DB5BB /* [CP] Check Pods Manifest.lock */,
 				30AD8AEC1EF58E1300CB153D /* Sources */,
 				30AD8AED1EF58E1300CB153D /* Frameworks */,
 				30AD8AEE1EF58E1300CB153D /* Resources */,
+				1B2FC577360195D27AE83DDA /* [CP] Embed Pods Frameworks */,
+				FC36C3A522E03BF3E1F98FD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +339,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FEACD51EFF326300986724 /* smb_stage_clear.wav in Resources */,
+				30FEACD01EFF326300986724 /* smb_warning.wav in Resources */,
+				30FEACD61EFF326300986724 /* smb_coin.wav in Resources */,
+				30FEACC21EFF0E7400986724 /* Main.storyboard in Resources */,
+				30FEACD71EFF326300986724 /* smb_mariodie.wav in Resources */,
+				30FEACD31EFF326300986724 /* smb_world_clear.wav in Resources */,
 				30AD8ADF1EF58E1300CB153D /* LaunchScreen.storyboard in Resources */,
 				30AD8ADC1EF58E1300CB153D /* Assets.xcassets in Resources */,
-				30AD8ADA1EF58E1300CB153D /* Main.storyboard in Resources */,
+				30FEACD21EFF326300986724 /* smb_bowserfalls.wav in Resources */,
+				30FEACCF1EFF326300986724 /* smb_1-up.wav in Resources */,
+				30FEACD11EFF326300986724 /* smb_breakblock.wav in Resources */,
+				30FEACCE1EFF326300986724 /* smb_gameover.wav in Resources */,
+				30FEACD41EFF326300986724 /* smb_bowserfire.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +371,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		073B601E0E0813EB06606CAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmoBotTests/Pods-EmoBotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07E4C15D04641591D0C78FD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmoBot/Pods-EmoBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0843F7A9F5EFF5CDA8AA1DA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmoBot/Pods-EmoBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B2FC577360195D27AE83DDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmoBotUITests/Pods-EmoBotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F3D334B04CDB733898DB5BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		863DED4BE943125859BBC531 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E28323B44B6F9224399D75AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FAF4E5362309A294BD5C76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmoBotTests/Pods-EmoBotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC36C3A522E03BF3E1F98FD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmoBotUITests/Pods-EmoBotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30AD8ACD1EF58E1300CB153D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30AD8B061EF58E3900CB153D /* BluetoothDiscovery.swift in Sources */,
 				30AD8AD71EF58E1300CB153D /* ViewController.swift in Sources */,
+				30FEACBE1EFF042A00986724 /* BotFace.swift in Sources */,
+				30FEACD91EFF365A00986724 /* Int.swift in Sources */,
+				30AD8B081EF5E66100CB153D /* String.swift in Sources */,
 				30AD8AD51EF58E1300CB153D /* AppDelegate.swift in Sources */,
+				30AD8B041EF58E3100CB153D /* BluetoothService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +556,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		30AD8AD81EF58E1300CB153D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30AD8AD91EF58E1300CB153D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30AD8ADD1EF58E1300CB153D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -417,9 +672,12 @@
 		};
 		30AD8AFA1EF58E1300CB153D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAF6A7905178A1FD73ADE94 /* Pods-EmoBot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4J2TC4EDE9;
 				INFOPLIST_FILE = EmoBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.EmoBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,9 +688,12 @@
 		};
 		30AD8AFB1EF58E1300CB153D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710BF1CE3E0411D1B0AB070C /* Pods-EmoBot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4J2TC4EDE9;
 				INFOPLIST_FILE = EmoBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elemes.EmoBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +704,7 @@
 		};
 		30AD8AFD1EF58E1300CB153D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781B18439521075161A8E9E1 /* Pods-EmoBotTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +720,7 @@
 		};
 		30AD8AFE1EF58E1300CB153D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9834A51A3E1139353A175FA /* Pods-EmoBotTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +736,7 @@
 		};
 		30AD8B001EF58E1300CB153D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC0317F406AE99052DFF447 /* Pods-EmoBotUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EmoBotUITests/Info.plist;
@@ -487,6 +751,7 @@
 		};
 		30AD8B011EF58E1300CB153D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE6F6B72A84EE63FD9F51CA /* Pods-EmoBotUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EmoBotUITests/Info.plist;
@@ -518,6 +783,7 @@
 				30AD8AFB1EF58E1300CB153D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30AD8AFC1EF58E1300CB153D /* Build configuration list for PBXNativeTarget "EmoBotTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +792,7 @@
 				30AD8AFE1EF58E1300CB153D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30AD8AFF1EF58E1300CB153D /* Build configuration list for PBXNativeTarget "EmoBotUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +801,7 @@
 				30AD8B011EF58E1300CB153D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

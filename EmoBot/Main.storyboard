@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EmoBot" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Z6N-FI-tmI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bluetooth_Disconnected" translatesAutoresizingMaskIntoConstraints="NO" id="gOQ-CK-8st">
+                                <rect key="frame" x="92" y="558" width="190" height="71"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jgr-Be-pAi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="180" translatesAutoresizingMaskIntoConstraints="NO" id="KaH-Io-lZL">
+                                <rect key="frame" x="25" y="7" width="324" height="31"/>
+                                <connections>
+                                    <action selector="positionSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="KR7-Gx-XPO"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Z6N-FI-tmI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0CC-Fn-WUP"/>
+                            <constraint firstItem="Z6N-FI-tmI" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="8t5-ie-etP"/>
+                            <constraint firstItem="KaH-Io-lZL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="11" id="A2p-Vx-JlT"/>
+                            <constraint firstAttribute="trailing" secondItem="Z6N-FI-tmI" secondAttribute="trailing" id="N3I-GO-GCx"/>
+                            <constraint firstItem="KaH-Io-lZL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="172" id="eCh-1y-JvM"/>
+                            <constraint firstItem="KaH-Io-lZL" firstAttribute="centerX" secondItem="gOQ-CK-8st" secondAttribute="centerX" id="fuu-Fb-X3c"/>
+                            <constraint firstItem="Z6N-FI-tmI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="j0I-pT-LA4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gOQ-CK-8st" secondAttribute="bottom" constant="38" id="kcq-Vq-vMB"/>
+                            <constraint firstItem="gOQ-CK-8st" firstAttribute="centerX" secondItem="Z6N-FI-tmI" secondAttribute="centerX" id="q4Y-zn-T6Z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraView" destination="Jgr-Be-pAi" id="5MI-6T-fc0"/>
+                        <outlet property="imageBluetoothStatus" destination="gOQ-CK-8st" id="PTb-Mc-u6M"/>
+                        <outlet property="positionSlider" destination="KaH-Io-lZL" id="36R-yt-x0P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-247.19999999999999" y="44.527736131934034"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="320" height="480"/>
+        <image name="Bluetooth_Disconnected" width="190" height="71"/>
+    </resources>
+</document>

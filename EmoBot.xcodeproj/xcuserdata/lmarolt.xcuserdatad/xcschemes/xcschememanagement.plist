@@ -7,7 +7,25 @@
 		<key>EmoBot.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>30AD8AD01EF58E1300CB153D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30AD8AE41EF58E1300CB153D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30AD8AEF1EF58E1300CB153D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
